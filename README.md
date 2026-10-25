@@ -72,9 +72,9 @@ Each service has its own `VERSION` environment variable that can be set independ
 By default, all services use the `latest` tag, but you can pin specific versions for stability:
 
 Examples:
-- Grafana: `VERSION=11.5.2`
-- Loki: `VERSION=3.4.2`
-- Prometheus: `VERSION=v3.2.1`
+- Grafana: `VERSION=11.6.9`
+- Loki: `VERSION=3.7.9`
+- Prometheus: `VERSION=v3.15.1`
 - Tempo: `VERSION=v2.7.1`
 
 This allows you to update each component independently as needed.

@@ -1,6 +1,6 @@
-ARG VERSION=11.5.2
+ARG VERSION=11.6.9
 
-FROM grafana/grafana-oss:${VERSION}
+FROM grafana/grafana:${VERSION}
 
 # copy the datasources and dashboards
 COPY datasources /etc/grafana/provisioning/datasources
